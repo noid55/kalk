@@ -1,0 +1,56 @@
+<html>
+<body>
+  <link href="styles/style.css" rel="stylesheet">
+  
+
+  <h1>Kalkulator</h1>
+
+    
+      <input  type="text" 
+              id="input1"
+              >
+      </input>
+    
+      <input  type="text" 
+              id="input2"
+              >
+      </input>
+      
+      <select name="operator" id="regne-valg">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+
+      </select>
+      <input  
+      type="button"
+      value="regn-ut"
+      onclick="calcSum()"></input>
+
+     <div id="result" type="text"></div>
+    
+        <div id="board">
+        <input type="button" class="one" value="1" onclick="inputTall(value)">
+        <input type="button" class="two" value="2" onclick="inputTall(value)">
+        <input type="button" class="three" value="3" onclick="inputTall(value)">
+        <input type="button" class="four" value="4" onclick="inputTall(value)">
+        <input type="button" class="five" value="5" onclick="inputTall(value)">
+        <input type="button" class="six" value="6" onclick="inputTall(value)">
+        <input type="button" class="seven" value="7" onclick="inputTall(value)">
+        <input type="button" class="eight" value="8" onclick="inputTall(value)">
+        <input type="button" class="nine" value="9" onclick="inputTall(value)">
+        <input type="button" class="zero" value="0" onclick="inputTall(value)">
+        <input type="button" class="equal" value="=" onclick="inputTall(value)">
+        <input type="button" class="clear" value="c" onclick="inputTall(value)">
+        <input type="button" class="plus" value="+" onclick="inputTall(value)">
+        <input type="button" class="minus" value="-" onclick="inputTall(value)">
+        <input type="button" class="multi" value="*" onclick="inputTall(value)">
+        <input type="button" class="div" value="/" onclick="inputTall(value)">
+        <div id="test"></div>
+      </div>
+
+      <script src="scripts/main.js"></script>
+</body>
+
+</html>

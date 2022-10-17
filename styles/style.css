@@ -1,0 +1,87 @@
+#pheader {
+    color: black;
+  }
+
+#input1 {
+    width:50px;
+}
+#input2 {
+    width:50px;
+}
+
+.result {
+    background-color: white;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    row-gap: 15px;
+    column-gap: 15px;
+    
+}
+#test {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.one{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.three{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.four{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.five{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.six{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.seven{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.eight{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.nine{
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.zero{
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.clear{
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.equal{
+    grid-column: 3;
+    grid-row: 4;
+}
